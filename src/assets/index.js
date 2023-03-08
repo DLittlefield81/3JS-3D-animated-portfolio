@@ -1,5 +1,5 @@
 //COMMON
-import logo from "./logo.svg";
+import logo from "./OFFWORLD_blue_solo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";

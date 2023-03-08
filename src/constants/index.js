@@ -122,24 +122,12 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Tailwind CSS", 
-        icon: tailwind,
-    },
-    {
         name: "MongoDB",
         icon: mongodb,
     },
     {
         name: "Three JS", 
         icon: threejs,
-    },
-    {
-        name: "git",
-        icon: git,
-    },
-    {
-        name: "figma",
-        icon: figma,
     },
     {
         name: "docker",

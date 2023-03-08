@@ -40,14 +40,14 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={logo} alt='logo' className='w-12 h-12 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Offworld&nbsp;
-            <span className='sm:block hidden'> &nbsp;|&nbsp; WordPress & Full Stack Web Services</span>
+            Offworld
+            <span className='sm:block hidden'>&nbsp;|&nbsp;Fullstack Development</span>
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+        <ul className='list-none hidden sm:flex flex-row gap-5'>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
