@@ -12,6 +12,7 @@
     "@emailjs/browser": "^3.10.0",
     "@react-three/drei": "^9.57.0",
     "@react-three/fiber": "^8.11.8",
+    "@tawk.to/tawk-messenger-react": "^2.0.1",
     "framer-motion": "^10.0.2",
     "maath": "^0.5.2",
     "react": "^18.2.0",
@@ -19,6 +20,7 @@
     "react-router-dom": "^6.8.2",
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
+    "tawkto-react": "^3.0.1",
     "three": "^0.150.1"
   },
   "devDependencies": {
