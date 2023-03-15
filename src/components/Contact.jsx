@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -15,6 +17,17 @@ const Contact = () => {
     message: '',
   })
   const [loading, setLoading] = useState(false);
+
+  const emailValidation = () => {
+    const regex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+    if (!this.state.email || regex.test(this.state.email) === false) {
+      this.setState({
+        error: "Email is not valid"
+      });
+      return false;
+    }
+    return true;
+  }
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -71,8 +84,10 @@ const Contact = () => {
         >
           {/* YOUR NAME */}
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Name</span>
+            <span className="text-white font-medium mb-4">Your Name*</span>
             <input
+              required
+              autoComplete="off"
               type="text"
               name="name"
               value={form.name}
@@ -80,11 +95,14 @@ const Contact = () => {
               placeholder="Your full name"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
             />
+
           </label>
           {/* YOUR Email */}
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Email</span>
+            <span className="text-white font-medium mb-4">Your Email*</span>
             <input
+            required
+              autoComplete="off"
               type="email"
               name="email"
               value={form.email}
@@ -92,11 +110,13 @@ const Contact = () => {
               placeholder="Your email address"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
             />
+
           </label>
           {/* YOUR Message */}
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">Your Message</span>
+            <span className="text-white font-medium mb-4">Your Message*</span>
             <textarea
+              required
               rows="7"
               name="message"
               value={form.message}
@@ -105,13 +125,19 @@ const Contact = () => {
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
             />
           </label>
+
           <button
+            onClick={emailValidation}
+
             type="submit"
             className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
           >
             {loading ? 'Sending...' : 'Send'}
           </button>
+          
         </form>
+        <br/>
+        <p>* Required fields</p>
       </motion.div>
       <motion.div
         variants={slideIn('right', "tween", 0.2, 1)}
