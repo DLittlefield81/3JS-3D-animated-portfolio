@@ -98,12 +98,12 @@ const technologies = [
         icon: css,
     },
     {
-        name: "PHP",
-        icon: php,
-    },
-    {
         name: "JavaScript",
         icon: javascript,
+    },
+    {
+        name: "PHP",
+        icon: php,
     },
     {
         name: "Node JS",
@@ -114,24 +114,16 @@ const technologies = [
         icon: express,
     },
     {
-        name: "mySQL", 
-        icon: sql,
-    },
-    {
         name: "React JS",
         icon: reactjs,
     },
     {
+        name: "mySQL", 
+        icon: sql,
+    },
+    {
         name: "MongoDB",
         icon: mongodb,
-    },
-    {
-        name: "Three JS", 
-        icon: threejs,
-    },
-    {
-        name: "docker",
-        icon: docker,
     },
 ];
 //WORK EXPERIENCE
@@ -214,7 +206,7 @@ const projects = [
             },
         ],
         image: taquerialaunion,
-        source_code_link: "https://github.com/DLittlefield81",
+        source_code_link: "https://taquerialaunion.mx",
     },
     {
         name: "Livelihood Kitchen",
@@ -235,7 +227,7 @@ const projects = [
             },
         ],
         image: livelihoodkitchen,
-        source_code_link: "https://github.com/DLittlefield81",
+        source_code_link: "https://livelihoodkitchen.com",
     },
     {
         name: "Tashan Events",
@@ -256,7 +248,7 @@ const projects = [
             },
         ],
         image: tashan,
-        source_code_link: "https://github.com/DLittlefield81",
+        source_code_link: "https://tashanevents.ca",
     },
     {
         name: "Pet Playdate",
@@ -298,7 +290,7 @@ const projects = [
             },
         ],
         image: flyteChecker,
-        source_code_link: "https://github.com/DLittlefield81/FlytCheckr",
+        source_code_link: "https://dlittlefield81.github.io/FlytCheckr/",
     },
     {
         name: "WordWise",
@@ -319,7 +311,7 @@ const projects = [
             },
         ],
         image: wordwise,
-        source_code_link: "https://github.com/DLittlefield81/WordWise",
+        source_code_link: "https://dlittlefield81.github.io/WordWise/",
     },
     {
         name: "Campos Lab | SickKids Hospital",
@@ -340,7 +332,7 @@ const projects = [
             },
         ],
         image: camposlab,
-        source_code_link: "https://github.com/DLittlefield81/",
+        source_code_link: "https://lab.research.sickkids.ca/campos/",
     },
     {
         name: "Adventure Essentials",
