@@ -24,6 +24,7 @@ import {
     nodejs,
     php,
     reactjs,
+    nextjs,
     redux,
     sequelize,
     sql,
@@ -98,12 +99,12 @@ const technologies = [
         icon: css,
     },
     {
-        name: "JavaScript",
-        icon: javascript,
-    },
-    {
         name: "PHP",
         icon: php,
+    },
+    {
+        name: "JavaScript",
+        icon: javascript,
     },
     {
         name: "Node JS",
@@ -114,16 +115,56 @@ const technologies = [
         icon: express,
     },
     {
+        name: "Next JS",
+        icon: nextjs,
+    },
+    {
         name: "React JS",
         icon: reactjs,
     },
     {
-        name: "mySQL", 
+        name: "redux",
+        icon: redux,
+    },
+    {
+        name: "mySQL",
         icon: sql,
+    },
+    {
+        name: "sequelize",
+        icon: sequelize,
     },
     {
         name: "MongoDB",
         icon: mongodb,
+    },
+    {
+        name: "graphql",
+        icon: graphql,
+    },
+    {
+        name: "tailwind",
+        icon: tailwind,
+    },
+    {
+        name: "aws",
+        icon: aws,
+    },
+    {
+        name: "gcs",
+        icon: gcs,
+    },
+    {
+        name: "git",
+        icon: git,
+    },
+    {
+        name: "wordpress",
+        icon: wordpress,
+    },
+    {
+        name: "divi",
+        icon: divi,
     },
 ];
 //WORK EXPERIENCE

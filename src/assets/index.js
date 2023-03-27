@@ -27,6 +27,7 @@ import mui from "./tech/mui.svg";
 import nodejs from "./tech/nodejs.png";
 import php from "./tech/php.svg";
 import reactjs from "./tech/reactjs.png";
+import nextjs from "./tech/nextjs.png";
 import redux from "./tech/redux.png";
 import sequelize from "./tech/sequelize.png";
 import sql from "./tech/sql.png";
@@ -87,6 +88,7 @@ export {
   nodejs,
   php,
   reactjs,
+  nextjs,
   redux,
   sequelize,
   sql,
