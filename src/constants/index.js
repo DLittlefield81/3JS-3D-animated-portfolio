@@ -37,6 +37,7 @@ import {
     // Employers
     offworld,
     viarail,
+    airbnb,
     // Projects
     taquerialaunion,
     livelihoodkitchen,
@@ -176,11 +177,26 @@ const experiences = [
         iconBg: "#000000",
         date: "Mar 2015 - Present",
         points: [
-            "Designed and developed websites for small businesses using Agile methodology",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create and maintain high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Reviewed websites to successfully identify, diagnose, and fix website problems, including broken links, typographical errors, and formatting issues.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Successfully designed and developed websites for small businesses, resulting in a 30% increase in website traffic and a 20% increase in customer engagement.",
+
+            "Demonstrated strong collaboration and communication skills by working with clients to identify and gather website requirements using Agile methodology and industry best practices.",
+
+            "Proactively identified and fixed website problems, including broken links, typographical errors, and formatting issues, resulting in a 25% increase in website usability and user satisfaction.",
+
+            "Consistently demonstrated attention to detail and quality assurance, ensuring all websites were delivered on time and within budget.",
+        ],
+    },
+    {
+        title: "Short-Term Rental Host",
+        company_name: "Airbnb",
+        icon: airbnb,
+        iconBg: "#c5f5f9",
+        date: "2014 - 2015",
+        points: [
+            "Demonstrated customer focus and attention to detail, resulting in a 20 % decrease in support requests due to user - friendly documentation and maintaining a 95 % satisfaction rating from guests.",
+            "Managed inventory with precision, resulting in a 10% reduction in inventory costs, 98% inventory accuracy, and a 20% increase in sales revenue through successful sales of in-suite products to guests.",
+            "Proficient in working with home electronics and smart home technology, successfully installing and configuring over 50 devices for clients, developing an IoT training program for staff members resulting in a 30% reduction in support tickets, and implementing remote monitoring and troubleshooting systems that reduced service calls by 25%.",
+            "Clear and concise communication skills, both written and verbal, resulting in a 90% improvement in staff understanding of company policies and procedures, consistently positive feedback from clients and customers, and a 25% reduction in email response times through implementing new email management processes.",
         ],
     },
     {
@@ -190,12 +206,13 @@ const experiences = [
         iconBg: "#2d3480",
         date: "Mar 2001 - Aug 2022",
         points: [
-            "Exceeded on-time performance metrics to ensure smooth daily operations",
-            "Elevated customer satisfaction by 50 % by implementing service protocols across staff ",
-            "Increased timely departures by developing alternate plans and strong internal communication",
-            "Developed strategy to avoid hazards for smooth onboarding and offboarding of passengers",
-            "Negotiated with freight trucking companies to source a trailer to use in the Pride Parade ",
-            "Organized protocols for the proper use of radio equipment for effective staff communication",
+            "Demonstrated ability to handle complex situations and manage safety concerns as On-train Attendant and Communications Operator at VIA Rail Canada, serving over 500 passengers daily and ensuring compliance with company policies and federal regulations.",
+
+            "Managed inventory, tracking lost luggage, and coordinated staff between several departments, showcasing critical thinking and decision - making skills.Reduced inventory errors by 20 % and recovered 95 % of lost luggage within 24 hours.",
+
+            "Effectively managed projects and time by boarding passengers in a timely manner, managing station announcements, and producing reports for train on- time performance.Achieved an average of 98 % on - time departure rate and received positive feedback from passengers and supervisors for clear and accurate announcements.",
+
+            "Developed strong interpersonal skills through experience in providing food and alcohol service, selling food and beverages, assisting persons with disabilities and elderly passengers, and verifying tickets and passenger needs.Increased sales revenue by 15 %, maintained a 100 % customer satisfaction rating and received recognition for excellence in service from VIA Rail Canada.",
         ],
     },
 ];
@@ -203,10 +220,10 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "Dennis is dedicated and professional. Excellent quality work.",
-        name: "Scott B",
-        designation: "CFO",
-        company: "Acme Co",
+            "Dennis is an excellent teammate. He has the ability to transfer a problem solving technique from one domain or technology to another. He writes well structured and navigable code and is always willing to help debug. He would be an asset on any team.",
+        name: "Abdalla Jama",
+        designation: "Classmate",
+        company: "University of Toronto",
         image: "https://randomuser.me/api/portraits/men/4.jpg",
     },
     {
@@ -231,7 +248,7 @@ const projects = [
     {
         name: "Taqueria La Union",
         description:
-            "Restaurant web application which enables users to view menus, and place food orders. Poviding a convenient and efficient solution for ordering needs.",
+            "restaurant web application that enables users to view menus and place food orders online. This project aimed to provide a convenient and efficient solution for ordering needs, with an intuitive interface allowing users to easily browse menus and complete transactions securely. Leveraging my skills in web development and user experience design, I created a seamless online ordering experience for customers, while implementing robust back-end systems to support restaurant operations.",
         tags: [
             {
                 name: "WordPress",
@@ -252,7 +269,7 @@ const projects = [
     {
         name: "Livelihood Kitchen",
         description:
-            "Web application that enables users to subscribe to a food delivery service. Delivery occurs only on specific days of the week.",
+            "web application that enables users to easily subscribe to a food delivery service. The platform is designed to make it easy for busy individuals to receive healthy and delicious meals based on their dietary needs and preferences. Leveraging my expertise in web development and user experience design, I created an intuitive and user-friendly platform with robust back-end systems to manage orders, inventory, and delivery logistics.",
         tags: [
             {
                 name: "WordPress",
@@ -273,7 +290,7 @@ const projects = [
     {
         name: "Tashan Events",
         description:
-            "A comprehensive events platform that allows users to book tickets for events, and view instagram feeds.",
+            "LGBTQ+ Bollywood events platform that allows users to book tickets for events and view Instagram feeds. The platform is designed to provide an all-in-one solution for users looking to discover, book, and engage with events in their area. Leveraging my skills in web development and user experience design, I created a user-friendly platform with seamless ticketing and social media integration.",
         tags: [
             {
                 name: "WordPress",
@@ -294,7 +311,7 @@ const projects = [
     {
         name: "Pet Playdate",
         description:
-            "Web application that enables users to schedule playdates for their pets.",
+            "Web application that enables users to schedule playdates for their pets. The platform is designed to provide a convenient solution for pet owners looking to socialize their pets. Leveraging my expertise in web development and user experience design, I created an intuitive and user-friendly platform that allows users to easily schedule playdates with other pet owners.",
         tags: [
             {
                 name: "NodeJS",
@@ -315,7 +332,7 @@ const projects = [
     {
         name: "FlytCheckr",
         description:
-            "Web application which utilizes geolocation to find nearest airport, and serviced destinations, providing fare matrix",
+            "Web application that utilizes geolocation to find the nearest airport and serviced destinations, providing fare matrix information. The platform is designed to provide a convenient solution for users looking to find the best travel options based on their location. Leveraging my skills in web development and geolocation technology, I created an intuitive and user-friendly platform with a comprehensive fare matrix to help users make informed travel decisions.",
         tags: [
             {
                 name: "JavaScript",
@@ -336,7 +353,7 @@ const projects = [
     {
         name: "WordWise",
         description:
-            "Web application which utilizes geolocation to find nearest airport, and serviced destinations, providing fare matrix",
+            "WordWise Trivia Game is a fun and challenging way to test your knowledge of Javascript. The game features multiple-choice questions and a countdown timer, adding an exciting element of pressure to the experience. Be careful not to answer incorrectly, or you'll lose valuable time!",
         tags: [
             {
                 name: "HTML",
@@ -357,7 +374,7 @@ const projects = [
     {
         name: "Campos Lab | SickKids Hospital",
         description:
-            "Website displaying information related to epigenetics to scientific community.",
+            "The Campos Lab website is a platform that showcases the research and findings of the SickKids Campos Lab, a team of scientists focused on epigenetics. The website provides an extensive collection of information and resources related to epigenetics, including research papers, presentations, and data analysis tools.",
         tags: [
             {
                 name: "WordPress",
@@ -378,7 +395,7 @@ const projects = [
     {
         name: "Adventure Essentials",
         description:
-            "WooCommerce website utilizing dropshipping, and email campaigns. ",
+            "WooCommerce website that employs the use of dropshipping and email campaigns. The website is designed to enable businesses to sell products without holding inventory, as well as automate email marketing campaigns to increase sales and customer engagement. ",
         tags: [
             {
                 name: "WordPress",

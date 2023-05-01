@@ -39,6 +39,7 @@ import woocommerce from "./tech/woocommerce.svg";
 import wordpress from "./tech/wordpress.svg";
 //EMPLOYERS
 import offworld from "./company/offworld.png";
+import airbnb from "./company/airbnb.svg";
 import viarail from "./company/viarail.png";
 //PROJECTS
 import taquerialaunion from "./projects/taquerialaunion.png";
@@ -100,6 +101,7 @@ export {
   wordpress,
   // Employers
   offworld,
+  airbnb,
   viarail,
   // Projects
   taquerialaunion,
