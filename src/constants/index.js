@@ -52,6 +52,8 @@ import {
     smartplanner,
     TeamProfileGenerator,
     techblog,
+    //Games
+    axeQuest,
     wordwise,
 } from "../assets";
 
@@ -351,27 +353,6 @@ const projects = [
         source_code_link: "https://dlittlefield81.github.io/FlytCheckr/",
     },
     {
-        name: "WordWise",
-        description:
-            "WordWise Trivia Game is a fun and challenging way to test your knowledge of Javascript. The game features multiple-choice questions and a countdown timer, adding an exciting element of pressure to the experience. Be careful not to answer incorrectly, or you'll lose valuable time!",
-        tags: [
-            {
-                name: "HTML",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "CSS",
-                color: "green-text-gradient",
-            },
-            {
-                name: "JavaScript",
-                color: "pink-text-gradient",
-            },
-        ],
-        image: wordwise,
-        source_code_link: "https://dlittlefield81.github.io/WordWise/",
-    },
-    {
         name: "Campos Lab | SickKids Hospital",
         description:
             "The Campos Lab website is a platform that showcases the research and findings of the SickKids Campos Lab, a team of scientists focused on epigenetics. The website provides an extensive collection of information and resources related to epigenetics, including research papers, presentations, and data analysis tools.",
@@ -415,4 +396,47 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+// Games
+const games = [
+    {
+        name: "WordWise",
+        description:
+            "Get ready for an exhilarating challenge with WordWise Trivia Game! Put your Javascript knowledge to the ultimate test as you tackle multiple-choice questions against the ticking countdown timer, adding a thrilling sense of urgency. Stay sharp and avoid the pitfalls of wrong answers, as every second counts in this adrenaline-pumping quest for trivia mastery!",
+        tags: [
+            {
+                name: "HTML",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "CSS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "JavaScript",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: wordwise,
+        source_code_link: "https://dlittlefield81.github.io/WordWise/",
+    },
+    {
+        name: "Axe Quest: Conquer the Castle",
+        description:
+            "Embark on a thrilling adventure in Axe Quest, the ultimate multi-room platformer! Prepare to immerse yourself in a world of epic challenges, utilizing collision blocks and detection, while showcasing your prowess with an axe. As a masterfully designed game, entirely written in JavaScript and featuring modularized code, Axe Quest offers an unforgettable gaming experience.",
+        tags: [
+            {
+                name: "JavaScript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Canvas",
+                color: "green-text-gradient",
+            },
+        ],
+        image: axeQuest,
+        source_code_link: "https://tempestgames.offworldportal.ca/platform-game-js/",
+    },
+]
+
+
+export { services, technologies, experiences, testimonials, projects, games };

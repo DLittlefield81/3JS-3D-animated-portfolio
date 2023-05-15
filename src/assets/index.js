@@ -55,6 +55,8 @@ import petplaydate from "./projects/petplaydate.png";
 import smartplanner from "./projects/smartplanner.png";
 import TeamProfileGenerator from "./projects/TeamProfileGenerator.png";
 import techblog from "./projects/techblog.png";
+//GAMES
+import axeQuest from "./projects/axeQuest.png";
 import wordwise from "./projects/wordwise.png";
 
 export {
@@ -117,5 +119,7 @@ export {
   smartplanner,
   TeamProfileGenerator,
   techblog,
+  //Games
+  axeQuest,
   wordwise,
 };
