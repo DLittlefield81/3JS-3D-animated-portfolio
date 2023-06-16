@@ -39,6 +39,8 @@ import {
     viarail,
     airbnb,
     // Projects
+    drjasonloken,
+    rwto,
     taquerialaunion,
     livelihoodkitchen,
     tashan,
@@ -52,8 +54,11 @@ import {
     smartplanner,
     TeamProfileGenerator,
     techblog,
+    reactportfolio,
+    WeatherWorks,
     //Games
     axeQuest,
+    cubejumper,
     wordwise,
 } from "../assets";
 
@@ -177,7 +182,7 @@ const experiences = [
         company_name: "Offworld",
         icon: offworld,
         iconBg: "#000000",
-        date: "Mar 2015 - Present",
+        date: "Mar 2020 - Present",
         points: [
             "Successfully designed and developed websites for small businesses, resulting in a 30% increase in website traffic and a 20% increase in customer engagement.",
 
@@ -248,6 +253,48 @@ const testimonials = [
 //PROJECTS
 const projects = [
     {
+        name: "Dr Jason Loken",
+        description:
+            "Updated and improved the website by refreshing content, fixing broken links, and enhancing visual elements.",
+        tags: [
+            {
+                name: "WordPress",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "PHP",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Advanced Custom Fields",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: drjasonloken,
+        source_code_link: "https://drjasonloken.com/",
+    },
+    {
+        name: "Retired Women Teachers of Ontario",
+        description:
+            "Updated and improved the website by refreshing content, fixing broken links, making changes to the PHP, and enhancing visual elements.",
+        tags: [
+            {
+                name: "WordPress",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "PHP",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Advanced Custom Fields",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: rwto,
+        source_code_link: "https://rwto.org/",
+    },
+    {
         name: "Taqueria La Union",
         description:
             "restaurant web application that enables users to view menus and place food orders online. This project aimed to provide a convenient and efficient solution for ordering needs, with an intuitive interface allowing users to easily browse menus and complete transactions securely. Leveraging my skills in web development and user experience design, I created a seamless online ordering experience for customers, while implementing robust back-end systems to support restaurant operations.",
@@ -316,11 +363,11 @@ const projects = [
             "Web application that enables users to schedule playdates for their pets. The platform is designed to provide a convenient solution for pet owners looking to socialize their pets. Leveraging my expertise in web development and user experience design, I created an intuitive and user-friendly platform that allows users to easily schedule playdates with other pet owners.",
         tags: [
             {
-                name: "NodeJS",
+                name: "ExpressJS",
                 color: "blue-text-gradient",
             },
             {
-                name: "ExpressJS",
+                name: "mySQL",
                 color: "green-text-gradient",
             },
             {
@@ -337,20 +384,180 @@ const projects = [
             "Web application that utilizes geolocation to find the nearest airport and serviced destinations, providing fare matrix information. The platform is designed to provide a convenient solution for users looking to find the best travel options based on their location. Leveraging my skills in web development and geolocation technology, I created an intuitive and user-friendly platform with a comprehensive fare matrix to help users make informed travel decisions.",
         tags: [
             {
-                name: "JavaScript",
+                name: "HTML/CSS",
                 color: "blue-text-gradient",
             },
             {
-                name: "AmadeusAPI",
+                name: "JavaScript",
                 color: "green-text-gradient",
             },
             {
-                name: "AirlineLogos",
+                name: "AmadeusAPI",
                 color: "pink-text-gradient",
             },
         ],
         image: flyteChecker,
         source_code_link: "https://dlittlefield81.github.io/FlytCheckr/",
+    },
+    {
+        name: "React Portfolio",
+        description:
+            "First version of my portfolio using ReactJS and SwiperJS, along with MaterialUI. Included Tawk.TO Chat functionality and earlier projects",
+        tags: [
+            {
+                name: "ReactJS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "SwiperJS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "MaterialUI",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: reactportfolio,
+        source_code_link: "https://github.com/DLittlefield81/reactportfolio",
+    },
+// INSERT BLOCK HERE
+    {
+        name: "WeatherWorks",
+        description:
+            "WeatherWorks is your ticket to getting your day off to a good start! Enter your city and we'll tell you your current forecast as well as the next 5. We'll even tell you if you should put on sunscreen with our new UV index with color advisor!",
+        tags: [
+            {
+                name: "HTML/CSS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "JavaScript",
+                color: "green-text-gradient",
+            },
+            {
+                name: "OpenWeatherAPI",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: WeatherWorks,
+        source_code_link: "https://github.com/DLittlefield81/WeatherWorks",
+    },
+
+    {
+        name: "Horiseon",
+        description:
+            "Refactor an existing site to make it more accessible using semantic HTML elements. ",
+        tags: [
+            {
+                name: "HTML",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "CSS",
+                color: "green-text-gradient",
+            },
+        ],
+        image: horiseon,
+        source_code_link: "https://github.com/DLittlefield81/horiseon-web",
+    },
+    {
+        name: "Interrobang Auction House",
+        description: "Fullstack application for an auction house utilizing React, MongoDB, SwiperJS, Cloudinary and Material UI, ",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "MongoDB",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Material UI",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: interrobang,
+        source_code_link: "https://github.com/DLittlefield81/Interrobang-Auction-House",
+    },
+    {
+        name: "JATE - Just another text editor",
+        description:
+            "Text editor developing PWA fundementals",
+        tags: [
+            {
+                name: "PWA",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Webpack",
+                color: "green-text-gradient",
+            },
+        ],
+        image: jate,
+        source_code_link: "https://github.com/DLittlefield81/TextEditor",
+    },
+    {
+        name: "Smart Planner",
+        description: "Smart planner utilizes local storage to save events for your day",
+        tags: [
+            {
+                name: "HTML",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "CSS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "JavaScript",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: smartplanner,
+        source_code_link: "https://github.com/DLittlefield81/SmartPlanner",
+    },
+    {
+        name: "Team Profile Generator",
+        description:
+            "This node app will request staff information using inquirer and out put an HTML page displaying all the members of a set team.",
+        tags: [
+            {
+                name: "HTML/CSS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "NodeJS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "JEST",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: TeamProfileGenerator,
+        source_code_link: "https://github.com/DLittlefield81/TeamProfileGenerator",
+    },
+    {
+        name: "Tech Blog",
+        description:
+            "CRUD application which allows users to create accounts, and add edit delete posts they have created. ",
+        tags: [
+            {
+                name: "HTML/CSS",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "ExpressJS",
+                color: "green-text-gradient",
+            },
+            {
+                name: "mySQL",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: techblog,
+        source_code_link: "https://github.com/DLittlefield81/TechBlog",
     },
     {
         name: "Campos Lab | SickKids Hospital",
@@ -398,6 +605,40 @@ const projects = [
 
 // Games
 const games = [
+       {
+        name: "Axe Quest: Conquer the Castle",
+        description:
+            "Embark on a thrilling adventure in Axe Quest, the ultimate multi-room platformer! Prepare to immerse yourself in a world of epic challenges, utilizing collision blocks and detection, while showcasing your prowess with an axe. As a masterfully designed game, entirely written in JavaScript and featuring modularized code, Axe Quest offers an unforgettable gaming experience.",
+        tags: [
+            {
+                name: "JavaScript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Canvas",
+                color: "green-text-gradient",
+            },
+        ],
+        image: axeQuest,
+        source_code_link: "https://tempestgames.offworldportal.ca/platform-game-js/",
+    },
+    {
+        name: "Cube Jumper",
+        description:
+            "In this thrilling ThreeJS game, you control a nimble green cube as it navigates through a chaotic environment filled with menacing red cubes. Your objective is to skillfully evade the relentless pursuit of the red cubes, testing your agility and reflexes to the limit. Can you guide the green cube to safety?",
+        tags: [
+            {
+                name: "JavaScript",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "ThreeJS",
+                color: "green-text-gradient",
+            },
+        ],
+        image: cubejumper,
+        source_code_link: "https://tempestgames.offworldportal.ca/3d-game/",
+    },
     {
         name: "WordWise",
         description:
@@ -418,23 +659,6 @@ const games = [
         ],
         image: wordwise,
         source_code_link: "https://dlittlefield81.github.io/WordWise/",
-    },
-    {
-        name: "Axe Quest: Conquer the Castle",
-        description:
-            "Embark on a thrilling adventure in Axe Quest, the ultimate multi-room platformer! Prepare to immerse yourself in a world of epic challenges, utilizing collision blocks and detection, while showcasing your prowess with an axe. As a masterfully designed game, entirely written in JavaScript and featuring modularized code, Axe Quest offers an unforgettable gaming experience.",
-        tags: [
-            {
-                name: "JavaScript",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "Canvas",
-                color: "green-text-gradient",
-            },
-        ],
-        image: axeQuest,
-        source_code_link: "https://tempestgames.offworldportal.ca/platform-game-js/",
     },
 ]
 

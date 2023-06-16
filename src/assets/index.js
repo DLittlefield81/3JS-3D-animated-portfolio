@@ -42,11 +42,14 @@ import offworld from "./company/offworld.png";
 import airbnb from "./company/airbnb.svg";
 import viarail from "./company/viarail.png";
 //PROJECTS
+import drjasonloken from './projects/drjasonloken.png'
+import rwto from './projects/rwto.png'
 import taquerialaunion from "./projects/taquerialaunion.png";
 import livelihoodkitchen from "./projects/livelihoodkitchen.png";
 import tashan from "./projects/tashan.png";
 import adventureessential from "./projects/adventureessential.png";
 import camposlab from "./projects/camposlab.png";
+import reactportfolio from "./projects/reactportfolio.png";
 import flyteChecker from "./projects/flyteChecker.png";
 import horiseon from "./projects/horiseon.png";
 import interrobang from "./projects/interrobang.png";
@@ -55,8 +58,10 @@ import petplaydate from "./projects/petplaydate.png";
 import smartplanner from "./projects/smartplanner.png";
 import TeamProfileGenerator from "./projects/TeamProfileGenerator.png";
 import techblog from "./projects/techblog.png";
+import WeatherWorks from "./projects/WeatherWorks.png";
 //GAMES
 import axeQuest from "./projects/axeQuest.png";
+import cubejumper from "./projects/cubejumper.png";
 import wordwise from "./projects/wordwise.png";
 
 export {
@@ -106,11 +111,14 @@ export {
   airbnb,
   viarail,
   // Projects
+  drjasonloken,
+  rwto,
   taquerialaunion,
   livelihoodkitchen,
   tashan,
   adventureessential,
   camposlab,
+  reactportfolio,
   flyteChecker,
   horiseon,
   interrobang,
@@ -119,7 +127,9 @@ export {
   smartplanner,
   TeamProfileGenerator,
   techblog,
+  WeatherWorks,
   //Games
   axeQuest,
+  cubejumper,
   wordwise,
 };
