@@ -1,9 +1,9 @@
 //COMMON
 import logo from "./OFFWORLD_blue_solo.png";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+import AccessabilityFocus from "./backend.png";
+import mentorship from "./creator.png";
+import mobileFirst from "./mobile.png";
+import fullstack from "./web.png";
 import github from "./view.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -72,10 +72,10 @@ export {
   close,
 
   // Proficiencies
-  mobile,
-  backend,
-  creator,
-  web,
+  mobileFirst,
+  AccessabilityFocus,
+  mentorship,
+  fullstack,
   // Languages
   aws,
   bootstrap,

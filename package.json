@@ -16,6 +16,7 @@
     "@react-three/drei": "^9.57.0",
     "@react-three/fiber": "^8.11.8",
     "@tawk.to/tawk-messenger-react": "^2.0.1",
+    "@wixc3/react-board": "^2.2.1",
     "dotenv": "^16.0.3",
     "framer-motion": "^10.0.2",
     "maath": "^0.5.2",

@@ -1,9 +1,9 @@
 import {
     // Proficiencies
-    mobile,
-    backend,
-    creator,
-    web,
+    fullstack,
+    mobileFirst,
+    AccessabilityFocus,
+    mentorship,
     // Languages
     aws,
     bootstrap,
@@ -80,20 +80,20 @@ export const navLinks = [
 //SEVICES
 const services = [
     {
-        title: "WordPress Designer",
-        icon: web,
+        title: "Fullstack Development",
+        icon: fullstack,
     },
     {
-        title: "Fullstack Developer",
-        icon: mobile,
+        title: "Mobile First Approach",
+        icon: mobileFirst,
     },
     {
-        title: "Drone Pilot",
-        icon: backend,
+        title: "Accessibility Focused",
+        icon: AccessabilityFocus,
     },
     {
-        title: "Content Creator",
-        icon: creator,
+        title: "Mentorship",
+        icon: mentorship,
     },
 ];
 //TECHNOLOGIES
